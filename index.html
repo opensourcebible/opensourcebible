@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bíblia Open Source</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,300,700'>
+<link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="mobile-wrap">
+	<div class="mobile clearfix">
+		<div class="header">
+			<span class="ion-ios-navicon pull-left"><i></i></span>
+			<span class="title">Início</span>
+			<span class="ion-ios-search pull-right"></span>
+			<div class="search">
+				<form method="post">
+					<input type="search" placeholder="Pesquisar" style="color: #fff">
+				</form>
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="sidebar-overlay"></div>
+			<div class="sidebar-content">
+				<div class="top-head">
+					<div class="name">Rafael Ruscher</div>
+					<div class="email">name@gmail.com</div>
+				</div>
+				<div class="nav-left">
+					<a href="#home"><span class="ion-ios-home-outline"></span>Início</a>
+					<a href="#alarm"><span class="ion-ios-bookmarks-outline"></span>Liturgia Diária</a>
+					<a href="#compose"><span class="ion-ios-compose-outline"></span>Comentários</a>
+					<a href="#chats"><span class="ion-ios-book-outline"></span>Bíblia Open Source</a>
+					<a href="#profile"><span class="ion-ios-person-outline"></span>Minha Conta</a>
+					<a href="#settings"><span class="ion-ios-gear-outline"></span>Configurações</a>
+					<a href="#credits"><span class="ion-ios-information-outline"></span>Ajuda</a>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="html search">
+				<div class="title bounceInDown animated">Resultados</div>
+				<p class="flipInX animated">Desculpe,<br>nenhum resultado encontrado.
+					<!-- <b class="key"></b> -->
+				</p>
+			</div>
+			<div class="html welcome visible">
+				<div class="datetime">
+					<div class="day lightSpeedIn animated">Quarta-Feira</div>
+					<div class="date lightSpeedIn animated">Fevereiro 23 de 2022</div>
+					<div class="time lightSpeedIn animated">00:00 AM</div>
+				</div>
+
+				<div class="alarm-list">
+					<div class="note clearfix slideInRight animated">
+						<div class="time pull-left">
+							<div class="hour">Gên</div>
+							<div class="shift">1º cap.</div>
+						</div>
+						<div class="to-do pull-left">
+							<div class="title">No princípio Deus criou </div>
+							<div class="subject">os céus e a terra.</div>
+						</div>
+					</div>
+					<div class="note clearfix slideInRight animated" data-revert="slideOutRight">
+						<div class="time pull-left">
+							<div class="to-do pull-left">
+								<div class="user-list clearfix">
+									<div class="user pull-left"><img src="https://avatars.githubusercontent.com/u/7110757?v=4"></div>
+								</div>
+							</div>
+						</div>
+						<div class="to-do pull-left">
+							<div class="title">Pe Paulo Giovanni</div>
+							<div class="subject">software bíblico gratuito</div>
+						</div>
+					</div>
+					<div class="note clearfix slideInRight animated">
+						<div class="time pull-left">
+							<div class="hour">9</div>
+							<div class="shift">AM</div>
+						</div>
+						<div class="to-do pull-left">
+							<div class="title">Missa da cura</div>
+							<div class="subject">Leve sua bíblia</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="html alarm">
+				<div class="forecast clearfix">
+					<div class="datetime pull-left bounceInLeft animated">
+						<div class="day">Quarta-Feira</div>
+						<div class="date">Fevereiro dia 23 de 2022</div>
+					</div>
+
+					<div class="temperature pull-right bounceInRight animated">
+						<div class="unit"><span class="ion-ios-sunny-outline"></span> 34<i>&deg;</i></div>
+						<div class="location">Brasília, DF</div>
+					</div>
+				</div>
+				<div class="alarm-list">
+					<div class="note clearfix slideInRight animated">
+						<div class="time pull-left">
+							<div class="hour">1ª Lei.</div>
+							<div class="shift">Leitura</div>
+						</div>
+						<div class="to-do pull-left">
+							<div class="title">Primeira Leitura </div>
+							<div class="subject">(Tg 4,13-17)</div>
+						</div>
+					</div>
+					<div class="note clearfix slideInRight animated">
+						<div class="time pull-left">
+							<div class="hour">Salmo</div>
+							<div class="shift"></div>
+						</div>
+						<div class="to-do pull-left">
+							<div class="title">Responsório</div>
+							<div class="subject">(Sl 48)</div>
+						</div>
+					</div>
+					<div class="note clearfix slideInRight animated" data-revert="slideOutRight">
+						<div class="time pull-left">
+							<div class="hour">Evang.</div>
+							<div class="shift"></div>
+						</div>
+						<div class="to-do pull-left">
+							<div class="title">Evangelho </div>
+							<div class="subject">(Mc 9,38-40)</div>
+							<div class="user-list clearfix">
+								<div class="user pull-left"><img src="https://avatars.githubusercontent.com/u/7110757?v=4"></div>
+								<div class="user pull-left"><img src="https://pbs.twimg.com/profile_images/507821121211596802/qZA8NDFU_400x400.jpeg"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="html compose">
+				<div class="forms">
+					<div class="group clearfix slideInRight animated">
+						<label class="pull-left" for="compose-time"><span class="ion-ios-time-outline"></span> Hora:</label>
+						<input class="pull-right" id="compose-time" type="time" style="filter: brightness(0) invert(1);">
+					</div>
+					<div class="group clearfix slideInLeft animated">
+						<label class="pull-left" for="compose-date"><span class="ion-ios-calendar-outline"></span> Data:</label>
+						<input class="pull-right" id="compose-date" type="date" style="filter: brightness(0) invert(1);">
+					</div>
+					<div class="group clearfix slideInRight animated">
+						<label class="pull-left" for="compose-title"><span class="ion-ios-paper-outline"></span> Título:</label>
+						<input class="pull-right" id="compose-title" type="text">
+					</div>
+					<div class="group clearfix slideInRight animated">
+						<label class="pull-left" for="compose-title"><span class="ion-ios-paper-outline"></span> End.:</label>
+						<input class="pull-right" id="compose-title" type="text" placeholder="Passagem, ex: Lc 11, 32">
+					</div>
+					<div class="group clearfix slideInLeft animated">
+						<label class="visible" for="compose-detail"><span class="ion-ios-list-outline"></span> Comentário:</label>
+						<textarea class="visible" id="compose-detail" rows="3"></textarea>
+					</div>
+					<div class="action flipInY animated">
+						<button class="btn">Comentário</button>
+					</div>
+				</div>
+			</div>
+			<div class="html chats">
+				<div class="tabs-list clearfix">
+					<a href="#" class="tab active">Novo Testamento</a>
+					<a href="#" class="tab">Antigo Testamento</a>
+				</div>
+				<div class="active-users">
+					<div class="user clearfix rotateInDownLeft animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Evangelho de Mateus</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="lendo"></span></div>
+					</div>
+					<div class="user clearfix rotateInDownRight animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Evangelho de Marcos</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="lido"></span></div>
+					</div>
+					<div class="user clearfix rotateInDownLeft animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Evangelho de Lucas</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="lendo"></span></div>
+					</div>
+					<div class="user clearfix rotateInDownRight animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Evangelho de João</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="novo"></span></div>
+					</div>
+					<div class="user clearfix rotateInDownLeft animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Livro de Atos</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="novo"></span></div>
+					</div>
+					<div class="user clearfix rotateInDownRight animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Livro de Romanos</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="novo"></span></div>
+					</div>
+					<div class="user clearfix rotateInDownRight animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Livro de 1 Coríntios</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="novo"></span></div>
+					</div>
+					<div class="user clearfix rotateInDownRight animated">
+						<div class="photo pull-left">
+							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/be/6f/19/be6f19c4-e05d-e9ca-ed81-4f8c3c118c09/source/256x256bb.jpg">
+						</div>
+						<div class="desc pull-left">
+							<p class="name">Livro de 2 Coríntios</p>
+							<p class="position">00 Capítulos</p>
+						</div>
+						<div class="idle pull-right"><span class="novo"></span></div>
+					</div>
+				</div>
+			</div>
+			<div class="html settings">
+				<div class="setting-list">
+					<div class="gear clearfix slideInRight animated">
+						<div class="title pull-left">General</div>
+						<div class="action pull-right"><span class="ion-ios-arrow-right"></span></div>
+					</div>
+					<div class="gear clearfix slideInLeft animated">
+						<div class="title pull-left"><label for="gear-notice">Notificações</label></div>
+						<div class="action pull-right"><input id="gear-notice" class="on-off" type="checkbox"><label for="gear-notice"></label></div>
+					</div>
+					<div class="gear clearfix slideInRight animated">
+						<div class="title pull-left"><label for="gear-sound">Som</label></div>
+						<div class="action pull-right"><input id="gear-sound" class="on-off" type="checkbox" checked><label for="gear-sound"></label></div>
+					</div>
+					<div class="gear clearfix slideInLeft animated">
+						<div class="title pull-left">Temas</div>
+						<div class="action pull-right">Padrão <span class="ion-ios-arrow-right"></span></div>
+					</div>
+					<div class="gear clearfix slideInRight animated">
+						<div class="title pull-left">Suporte</div>
+						<div class="action pull-right"><span class="ion-ios-arrow-right"></span></div>
+					</div>
+					<div class="gear clearfix slideInLeft animated">
+						<div class="title pull-left">Privacidade</div>
+						<div class="action pull-right"><span class="ion-ios-arrow-right"></span></div>
+					</div>
+				</div>
+			</div>
+			<div class="html profile">
+				<div class="photo flipInX animated">
+					<img src="https://d30-invdn-com.investing.com/company_logo/5d525dff7b37dd0421007c7646391683.jpg?width=170&height=170">
+					<div class="social">
+						<a href="https://facebook.com/" class="soc-item soc-count-1"><span class="ion-social-facebook"></span></a>
+						<a href="https://twitter.com/" class="soc-item soc-count-2"><span class="ion-social-twitter"></span></a>
+						<a href="https://github.com/" class="soc-item soc-count-3"><span class="ion-social-github"></span></a>
+						<a href="https://pinterest.com/" class="soc-item soc-count-4"><span class="ion-social-pinterest"></span></a>
+						<a href="https://linkedin.com/" class="soc-item soc-count-5"><span class="ion-social-linkedin"></span></a>
+						<a href="https://codepen.io/" class="soc-item soc-count-6"><span class="ion-social-codepen"></span></a>
+						<a href="skype:" class="soc-item soc-count-7"><span class="ion-social-skype"></span></a>
+						<a href="http://dribbble.com/" class="soc-item soc-count-8"><span class="ion-social-dribbble"></span></a>
+					</div>
+				</div>
+				<div class="details">
+					<p class="heading flipInY animated">
+						<span class="name">Padre Pio de Pietrelcina</span><span class="position">Padre</span>
+					</p>
+					<p class="text fadeInUp animated">Padre Pio de Pietrelcina (1887-1968) foi um sacerdote católico italiano, da Ordem dos Frades Menores Capuchinhos. Em 2002, foi canonizado pelo Papa João Paulo II, como São Pio de Pietrelcina.</p>
+				</div>
+			</div>
+			<div class="html credits">
+				<div class="title flipInY animated">Temos várias ajudas para você estudar a Bíblia. Aqui você vai encontrar ferramentas que vão ajudá-lo a entender melhor a Palavra de Deus no seu estudo pessoal da Bíblia. Não deixe de ver a nossa Bíblia Open Source, com vários recursos para aprofundar seus conhecimentos, que você pode fazer sozinho e no seu ritmo. Vá mais a fundo no seus estudos bíblicos e ferramentas são gratuitas.</div>
+				<div class="credit-ol">
+					<div class="credit-li lightSpeedIn animated"><a href="https://www.google.com/fonts/specimen/Roboto" target="_blank">Dúvida</a> <span>0000</span></div>
+					<div class="credit-li lightSpeedIn animated"><a href="#" target="_blank">Dúvida</a> <span>aaaa</span></div>
+					<div class="credit-li lightSpeedIn animated"><a href="#" target="_blank">Dúvida</a> <span>bbbb</span></div>
+					<div class="credit-li lightSpeedIn animated"><a href="#" target="_blank">Dúvida</a> <span>cccc</span></div>
+					<div class="credit-li lightSpeedIn animated"><a href="#" target="_blank">Dúvida</a> <span>dddd</span></div>
+					<div class="credit-li lightSpeedIn animated"><a href="#" target="_blank">Dúvida</a> <span>eeee</span></div>
+					<div class="credit-li lightSpeedIn animated"><a href="#" target="_blank">Dúvida</a> <span>ffff</span></div>
+				</div>
+				<div class="text zoomInUp animated">Deus te anbeçoe!</div>
+			</div>
+		</div>
+		<div class="nav">
+			<a href="#profile" class="nav-item nav-count-1"><i class="ion-ios-person-outline"></i><span class="invisible">Minha Conta</span></a>
+			<a href="#compose" class="nav-item nav-count-2"><i class="ion-ios-compose-outline"></i><span class="invisible">Comentários</span></a>
+			<a href="#chats" class="nav-item nav-count-3"><i class="ion-ios-book-outline"></i><span class="invisible">Biblia</span></a>
+			<a href="#alarm" class="nav-item nav-count-4"><i class="ion-ios-bookmarks-outline"></i><span class="invisible">Liturgia Diária</span></a>
+			<a href="#toggle" class="mask"><i class="ion-ios-plus-empty"></i></a>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
